@@ -81,6 +81,8 @@
 
 训练在 AutoDL（RTX 4090）上完成：任务 `Instinct-Parkour-Target-Amp-G1-v0`，4096 个环境，30000 次迭代。和上游配置相比唯一的改动是 `save_interval=1000`。以下推理和评估都**不改任何上游代码和训练配置**，只新写了评估脚本。详细记录见 [`README_2026-09-24_play与评估.md`](instinctlab_perception_inference/README_2026-09-24_play与评估.md)。
 
+**奖励函数逐项解读**（每一项的权重、对应源码、公式、作用和训练曲线数值）：[`docs/感知策略奖励函数解读.md`](docs/感知策略奖励函数解读.md)。
+
 ### 3.1 Play 回放（本地笔记本渲染）
 
 | 视频 | 内容 |
@@ -284,6 +286,7 @@ AutoDL 上 Isaac Sim 4.5 的渲染器会段错误，所以视频只能在本地�
 .
 ├── README.md                              # 本文件
 ├── media/                                 # README 里的 GIF 预览
+├── docs/感知策略奖励函数解读.md            # 感知策略奖励函数逐项解读（含源码）
 ├── instinctlab_perception_inference/      # 第一部分：纯 InstinctLab 感知策略的推理与评估
 │   ├── README_2026-09-24_play与评估.md     #   详细记录（play 视频 + 地形评估 + 排查过程）
 │   ├── run_instinct.ps1                   #   本地运行包装脚本（清掉 user-site，避免导入别的 isaaclab）
