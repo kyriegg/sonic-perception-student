@@ -13,6 +13,22 @@ Unitree G1 上的双老师蒸馏实验：学生以 NVIDIA SONIC 为底座，从 
 - `instinctlab_perception_inference/README_2026-09-24_play与评估.md`
 - `stage0_sonic_two_teachers/README_2026-10-10_关节数据与第零阶段.md`
 
+## 视频
+
+### InstinctLab 感知策略 `model_30000.pt`（Play 版地形，1 个机器人，10 s）
+
+![InstinctLab model_30000 play](media/instinctlab_model_30000_play.gif)
+
+原视频（1280×720，50 fps）：[`instinctlab_perception_inference/videos/model_30000_play_1env.mp4`](instinctlab_perception_inference/videos/model_30000_play_1env.mp4)
+
+### 第零阶段：两个老师在同一个 InstinctLab 环境里（70 s，GIF 为 4 倍速）
+
+0–30 s 由 SONIC 控制（边走边转身 / 跳舞 / 单腿跳），30–70 s 由感知老师控制（上台阶 / 缺口 / Small Box / Ramp，最高难度）。
+
+![Stage 0 two teachers](media/stage0_two_teachers_4x.gif)
+
+原视频（1280×720，50 fps）：[`stage0_sonic_two_teachers/results_stage0/video_final/videos/stage0_two_teachers-step-0.mp4`](stage0_sonic_two_teachers/results_stage0/video_final/videos/stage0_two_teachers-step-0.mp4)
+
 ## 关节数据格式
 
 `instinctlab_perception_inference/joint_data/model_30000_L9/`：9 种地形 × 10 个机器人 × 1000 步（20 s，50 Hz），第 9 级难度。
