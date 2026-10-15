@@ -1,0 +1,93 @@
+{
+ "dance_in_da_party_001__A464": {
+  "frames": 497,
+  "mpjpe_l_mm": 31.72342300415039,
+  "jpe_deg": 7.441644779985218,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "dance_in_da_party_001__A464_M": {
+  "frames": 497,
+  "mpjpe_l_mm": 30.6093692779541,
+  "jpe_deg": 7.23802488799609,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "forward_lunge_R_001__A359_M": {
+  "frames": 399,
+  "mpjpe_l_mm": 32.54067611694336,
+  "jpe_deg": 5.4602491635600074,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "macarena_001__A545": {
+  "frames": 1375,
+  "mpjpe_l_mm": 26.754091262817383,
+  "jpe_deg": 5.013531739952725,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "macarena_001__A545_M": {
+  "frames": 1375,
+  "mpjpe_l_mm": 26.490848541259766,
+  "jpe_deg": 5.02179071931974,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "neutral_kick_R_001__A543": {
+  "frames": 165,
+  "mpjpe_l_mm": 24.331167221069336,
+  "jpe_deg": 4.885194619882301,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "neutral_kick_R_001__A543_M": {
+  "frames": 165,
+  "mpjpe_l_mm": 24.400035858154297,
+  "jpe_deg": 4.5704633449095216,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "squat_001__A359": {
+  "frames": 424,
+  "mpjpe_l_mm": 38.49663543701172,
+  "jpe_deg": 5.005880220535018,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "tired_forward_lunge_R_001__A359_M": {
+  "frames": 810,
+  "mpjpe_l_mm": 35.11920928955078,
+  "jpe_deg": 6.776771968061373,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "tired_one_leg_jumping_R_001__A359": {
+  "frames": 500,
+  "mpjpe_l_mm": 35.00904846191406,
+  "jpe_deg": 6.952566950032339,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "tired_one_leg_jumping_R_001__A359_M": {
+  "frames": 500,
+  "mpjpe_l_mm": 33.87339782714844,
+  "jpe_deg": 6.480068123629197,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "walking_quip_360_R_002__A428": {
+  "frames": 455,
+  "mpjpe_l_mm": 20.10988426208496,
+  "jpe_deg": 4.0417191913517945,
+  "failed": false,
+  "fail_frame": -1
+ },
+ "walking_quip_360_R_002__A428_M": {
+  "frames": 455,
+  "mpjpe_l_mm": 20.390344619750977,
+  "jpe_deg": 4.133698787583417,
+  "failed": false,
+  "fail_frame": -1
+ }
+}

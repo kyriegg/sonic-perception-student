@@ -1,0 +1,234 @@
+{
+ "left_hip_pitch_joint": {
+  "stiffness": 99.09842777666113,
+  "damping": 6.3088018534966395,
+  "armature": 0.025101925,
+  "effort_limit_sim": 139.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.3506614663788243
+ },
+ "right_hip_pitch_joint": {
+  "stiffness": 99.09842777666113,
+  "damping": 6.3088018534966395,
+  "armature": 0.025101925,
+  "effort_limit_sim": 139.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.3506614663788243
+ },
+ "left_hip_roll_joint": {
+  "stiffness": 99.09842777666113,
+  "damping": 6.3088018534966395,
+  "armature": 0.025101925,
+  "effort_limit_sim": 139.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.3506614663788243
+ },
+ "right_hip_roll_joint": {
+  "stiffness": 99.09842777666113,
+  "damping": 6.3088018534966395,
+  "armature": 0.025101925,
+  "effort_limit_sim": 139.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.3506614663788243
+ },
+ "left_hip_yaw_joint": {
+  "stiffness": 40.17923847137318,
+  "damping": 2.5578897650279457,
+  "armature": 0.01017752,
+  "effort_limit_sim": 88.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.5475464652142303
+ },
+ "right_hip_yaw_joint": {
+  "stiffness": 40.17923847137318,
+  "damping": 2.5578897650279457,
+  "armature": 0.01017752,
+  "effort_limit_sim": 88.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.5475464652142303
+ },
+ "left_knee_joint": {
+  "stiffness": 99.09842777666113,
+  "damping": 6.3088018534966395,
+  "armature": 0.025101925,
+  "effort_limit_sim": 139.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.3506614663788243
+ },
+ "right_knee_joint": {
+  "stiffness": 99.09842777666113,
+  "damping": 6.3088018534966395,
+  "armature": 0.025101925,
+  "effort_limit_sim": 139.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.3506614663788243
+ },
+ "left_ankle_pitch_joint": {
+  "stiffness": 28.50124619574858,
+  "damping": 1.814445686584846,
+  "armature": 0.00721945,
+  "effort_limit_sim": 50.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "right_ankle_pitch_joint": {
+  "stiffness": 28.50124619574858,
+  "damping": 1.814445686584846,
+  "armature": 0.00721945,
+  "effort_limit_sim": 50.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "left_ankle_roll_joint": {
+  "stiffness": 28.50124619574858,
+  "damping": 1.814445686584846,
+  "armature": 0.00721945,
+  "effort_limit_sim": 50.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "right_ankle_roll_joint": {
+  "stiffness": 28.50124619574858,
+  "damping": 1.814445686584846,
+  "armature": 0.00721945,
+  "effort_limit_sim": 50.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "waist_roll_joint": {
+  "stiffness": 28.50124619574858,
+  "damping": 1.814445686584846,
+  "armature": 0.00721945,
+  "effort_limit_sim": 50,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "waist_pitch_joint": {
+  "stiffness": 28.50124619574858,
+  "damping": 1.814445686584846,
+  "armature": 0.00721945,
+  "effort_limit_sim": 50,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "waist_yaw_joint": {
+  "stiffness": 40.17923847137318,
+  "damping": 2.5578897650279457,
+  "armature": 0.01017752,
+  "effort_limit_sim": 88,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.5475464652142303
+ },
+ "left_shoulder_pitch_joint": {
+  "stiffness": 14.25062309787429,
+  "damping": 0.907222843292423,
+  "armature": 0.003609725,
+  "effort_limit_sim": 25.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "right_shoulder_pitch_joint": {
+  "stiffness": 14.25062309787429,
+  "damping": 0.907222843292423,
+  "armature": 0.003609725,
+  "effort_limit_sim": 25.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "left_shoulder_roll_joint": {
+  "stiffness": 14.25062309787429,
+  "damping": 0.907222843292423,
+  "armature": 0.003609725,
+  "effort_limit_sim": 25.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "right_shoulder_roll_joint": {
+  "stiffness": 14.25062309787429,
+  "damping": 0.907222843292423,
+  "armature": 0.003609725,
+  "effort_limit_sim": 25.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "left_shoulder_yaw_joint": {
+  "stiffness": 14.25062309787429,
+  "damping": 0.907222843292423,
+  "armature": 0.003609725,
+  "effort_limit_sim": 25.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "right_shoulder_yaw_joint": {
+  "stiffness": 14.25062309787429,
+  "damping": 0.907222843292423,
+  "armature": 0.003609725,
+  "effort_limit_sim": 25.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "left_elbow_joint": {
+  "stiffness": 14.25062309787429,
+  "damping": 0.907222843292423,
+  "armature": 0.003609725,
+  "effort_limit_sim": 25.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "right_elbow_joint": {
+  "stiffness": 14.25062309787429,
+  "damping": 0.907222843292423,
+  "armature": 0.003609725,
+  "effort_limit_sim": 25.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "left_wrist_roll_joint": {
+  "stiffness": 14.25062309787429,
+  "damping": 0.907222843292423,
+  "armature": 0.003609725,
+  "effort_limit_sim": 25.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "right_wrist_roll_joint": {
+  "stiffness": 14.25062309787429,
+  "damping": 0.907222843292423,
+  "armature": 0.003609725,
+  "effort_limit_sim": 25.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.43857731392336724
+ },
+ "left_wrist_pitch_joint": {
+  "stiffness": 16.77832748089279,
+  "damping": 1.06814150219,
+  "armature": 0.00425,
+  "effort_limit_sim": 5.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.07450087032950714
+ },
+ "right_wrist_pitch_joint": {
+  "stiffness": 16.77832748089279,
+  "damping": 1.06814150219,
+  "armature": 0.00425,
+  "effort_limit_sim": 5.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.07450087032950714
+ },
+ "left_wrist_yaw_joint": {
+  "stiffness": 16.77832748089279,
+  "damping": 1.06814150219,
+  "armature": 0.00425,
+  "effort_limit_sim": 5.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.07450087032950714
+ },
+ "right_wrist_yaw_joint": {
+  "stiffness": 16.77832748089279,
+  "damping": 1.06814150219,
+  "armature": 0.00425,
+  "effort_limit_sim": 5.0,
+  "type": "ImplicitActuatorCfg",
+  "scale": 0.07450087032950714
+ }
+}

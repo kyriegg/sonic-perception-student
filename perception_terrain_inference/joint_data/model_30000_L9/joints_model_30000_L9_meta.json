@@ -1,0 +1,87 @@
+{
+  "checkpoint": "D:\\robot paper\\instinct_repro\\logs_server\\20260920_011638\\model_30000.pt",
+  "task": "Instinct-Parkour-Target-Amp-G1-v0",
+  "level": 9,
+  "full_terrain": false,
+  "step_dt": 0.02,
+  "steps": 1000,
+  "envs_per_terrain": 10,
+  "joint_names": [
+    "left_shoulder_pitch_joint",
+    "right_shoulder_pitch_joint",
+    "waist_pitch_joint",
+    "left_shoulder_roll_joint",
+    "right_shoulder_roll_joint",
+    "waist_roll_joint",
+    "left_shoulder_yaw_joint",
+    "right_shoulder_yaw_joint",
+    "waist_yaw_joint",
+    "left_elbow_joint",
+    "right_elbow_joint",
+    "left_hip_pitch_joint",
+    "right_hip_pitch_joint",
+    "left_wrist_roll_joint",
+    "right_wrist_roll_joint",
+    "left_hip_roll_joint",
+    "right_hip_roll_joint",
+    "left_wrist_pitch_joint",
+    "right_wrist_pitch_joint",
+    "left_hip_yaw_joint",
+    "right_hip_yaw_joint",
+    "left_wrist_yaw_joint",
+    "right_wrist_yaw_joint",
+    "left_knee_joint",
+    "right_knee_joint",
+    "left_ankle_pitch_joint",
+    "right_ankle_pitch_joint",
+    "left_ankle_roll_joint",
+    "right_ankle_roll_joint"
+  ],
+  "files": {
+    "perlin_rough": {
+      "npz": "D:\\robot paper\\instinct_repro\\joint_data\\model_30000_L9\\joints_model_30000_perlin_rough_L9.npz",
+      "episodes_ended": 10,
+      "falls": 0
+    },
+    "square_gaps": {
+      "npz": "D:\\robot paper\\instinct_repro\\joint_data\\model_30000_L9\\joints_model_30000_square_gaps_L9.npz",
+      "episodes_ended": 10,
+      "falls": 1
+    },
+    "pyramid_stairs": {
+      "npz": "D:\\robot paper\\instinct_repro\\joint_data\\model_30000_L9\\joints_model_30000_pyramid_stairs_L9.npz",
+      "episodes_ended": 10,
+      "falls": 0
+    },
+    "pyramid_stairs_high": {
+      "npz": "D:\\robot paper\\instinct_repro\\joint_data\\model_30000_L9\\joints_model_30000_pyramid_stairs_high_L9.npz",
+      "episodes_ended": 10,
+      "falls": 1
+    },
+    "pyramid_stairs_inv": {
+      "npz": "D:\\robot paper\\instinct_repro\\joint_data\\model_30000_L9\\joints_model_30000_pyramid_stairs_inv_L9.npz",
+      "episodes_ended": 10,
+      "falls": 0
+    },
+    "pyramid_stairs_inv_high": {
+      "npz": "D:\\robot paper\\instinct_repro\\joint_data\\model_30000_L9\\joints_model_30000_pyramid_stairs_inv_high_L9.npz",
+      "episodes_ended": 10,
+      "falls": 0
+    },
+    "boxes": {
+      "npz": "D:\\robot paper\\instinct_repro\\joint_data\\model_30000_L9\\joints_model_30000_boxes_L9.npz",
+      "episodes_ended": 10,
+      "falls": 0
+    },
+    "mesh_boxes": {
+      "npz": "D:\\robot paper\\instinct_repro\\joint_data\\model_30000_L9\\joints_model_30000_mesh_boxes_L9.npz",
+      "episodes_ended": 11,
+      "falls": 4
+    },
+    "hf_pyramid_slope_inv": {
+      "npz": "D:\\robot paper\\instinct_repro\\joint_data\\model_30000_L9\\joints_model_30000_hf_pyramid_slope_inv_L9.npz",
+      "episodes_ended": 10,
+      "falls": 2
+    }
+  }
+}

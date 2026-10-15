@@ -1,0 +1,7 @@
+   0.0s -   10.0s  sonic   walking_quip_360_R_002__A428  (env 20)
+  10.0s -   20.0s  sonic   dance_in_da_party_001__A464  (env 9)
+  20.0s -   30.0s  sonic   tired_one_leg_jumping_R_001__A359  (env 18)
+  30.0s -   40.0s  terrain pyramid_stairs_inv  (env 4)
+  40.0s -   50.0s  terrain square_gaps  (env 1)
+  50.0s -   60.0s  terrain mesh_boxes  (env 7)
+  60.0s -   70.0s  terrain hf_pyramid_slope_inv  (env 8)

@@ -1,0 +1,108 @@
+﻿[Warning] [simulation_app.simulation_app] Modules: ['omni.kit_app'] were loaded before SimulationApp was started and might not be loaded correctly.
+[Warning] [simulation_app.simulation_app] Please check to make sure no extra omniverse or pxr modules are imported before the call to SimulationApp(...)
+Loading user config located at: 'd:/anconda/envs/instinct_repro/lib/site-packages/omni/data/Kit/Isaac-Sim/4.5/user.config.json'
+[Info] [carb] Logging to file: d:/anconda/envs/instinct_repro/lib/site-packages/omni/logs/Kit/Isaac-Sim/4.5/kit_20261010_180408.log
+2026-10-10 16:04:08 [0ms] [Warning] [omni.kit.app.plugin] No crash reporter present, dumps uploading isn't available.
+2026-10-10 16:04:08 [34ms] [Warning] [omni.ext.plugin] [ext: isaaclab_contrib] Extensions config 'extension.toml' doesn't exist 'd:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab_contrib' or 'd:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab_contrib/config'
+2026-10-10 16:04:08 [35ms] [Warning] [omni.ext.plugin] [ext: rendering_modes] Extensions config 'extension.toml' doesn't exist 'd:/robot paper/instinct_repro/isaaclab_instinct/apps/rendering_modes' or 'd:/robot paper/instinct_repro/isaaclab_instinct/apps/rendering_modes/config'
+2026-10-10 16:04:09 [672ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-10-10 16:04:10 [1,518ms] [Warning] [omni.datastore] OmniHub is inaccessible
+2026-10-10 16:04:10 [1,741ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-10-10 16:04:19 [10,603ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 16:04:19 [10,603ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 16:04:19 [10,603ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 16:04:19 [10,603ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 581.80        | Graphics API: D3D12
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. | Yes: 0 |     | 7957    MB | 10de      | d8330100.. |
+|     |                                  |        |     |            | 28e0      | 0          |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Iris(R) Xe Graphics     |        |     | 128     MB | 8086      | 942a0100.. |
+|     |                                  |        |     |            | a7a0      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|---------------------------------------------------------------------------------------------|
+| 2   | Intel(R) Iris(R) Xe Graphics     |        |     | 128     MB | 8086      | 6a370200.. |
+|     |                                  |        |     |            | a7a0      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|=============================================================================================|
+| OS: Windows 11 Home China, Version: 10.0 (25H2), Build: 26200, Kernel: 10.0.26100.9457
+| Processor: 13th Gen Intel(R) Core(TM) i7-13700H
+| Cores: 14 | Logical Cores: 20
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 16108 | Free Memory: 5424
+| Total Page/Swap (MB): 37612 | Free Page/Swap: 16506
+|---------------------------------------------------------------------------------------------|
+python.exe : 2026-10-10 16:04:22 [13,505ms] [Error] [gpu.foundation.plugin] DriverShaderCacheManager::init() called wit
+hout a shutdown()!
+At D:\robot paper\instinct_repro\run_instinct.ps1:15 char:1
++ & "D:\anconda\envs\instinct_repro\python.exe" $Script @ScriptArgs
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-10 16:0...t a shutdown()!:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+D:\robot paper\sonic_student\sonic_net.py:101: FutureWarning: You are using `torch.load` with `weights_only=False` (the
+ current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle 
+data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#
+untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`
+. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be
+ loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We
+ recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file.
+ Please open an issue on GitHub for any issues related to this experimental feature.
+  sd = torch.load(path, map_location="cpu")
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: D:\robot paper\instinct_repro\IsaacLab_instinct\apps\isaaclab.python.headless.kit
+[TRACK] per-body world pos err after reset (mm): pelvis 10, left_hip_roll 10, left_knee 10, left_ankle_roll 10, right_hip_roll 10, right_knee 10, right_ankle_roll 10, torso 0, left_shoulder_roll 10, left_elbow 10, left_wrist_yaw 10, right_shoulder_roll 10, right_elbow 10, right_wrist_yaw 10
+[TRACK] after reset: mpjpe_l 1.5 mm (max 2.3), joint err 0.00 deg, pelvis z err 10.0 mm, pelvis xy err 1.8 mm
+[TRACK]   t=1: mpjpe_l 4.9 mm, joint err 2.02 deg, pelvis z err mean 7.1 mm, gravity_z -0.997
+[TRACK] step 0/1375  mean mpjpe_l 4.9 mm  failed 0
+[TRACK]   t=2: mpjpe_l 7.9 mm, joint err 3.10 deg, pelvis z err mean 1.8 mm, gravity_z -0.999
+[TRACK]   t=3: mpjpe_l 9.1 mm, joint err 3.43 deg, pelvis z err mean 2.4 mm, gravity_z -0.998
+[TRACK]   t=4: mpjpe_l 9.7 mm, joint err 3.64 deg, pelvis z err mean 4.0 mm, gravity_z -0.996
+[TRACK]   t=5: mpjpe_l 9.9 mm, joint err 3.71 deg, pelvis z err mean 3.8 mm, gravity_z -0.996
+[TRACK]   t=51: mpjpe_l 29.8 mm, joint err 6.26 deg, pelvis z err mean 20.7 mm, gravity_z -0.967
+[TRACK]   t=101: mpjpe_l 22.3 mm, joint err 4.97 deg, pelvis z err mean 9.1 mm, gravity_z -0.990
+[TRACK] step 100/1375  mean mpjpe_l 23.0 mm  failed 0
+[TRACK]   t=151: mpjpe_l 29.0 mm, joint err 6.30 deg, pelvis z err mean 11.2 mm, gravity_z -0.990
+[TRACK]   t=201: mpjpe_l 36.7 mm, joint err 7.15 deg, pelvis z err mean 27.9 mm, gravity_z -0.991
+[TRACK] step 200/1375  mean mpjpe_l 27.4 mm  failed 0
+[TRACK]   t=251: mpjpe_l 29.9 mm, joint err 5.23 deg, pelvis z err mean 17.0 mm, gravity_z -0.987
+[TRACK]   t=301: mpjpe_l 34.1 mm, joint err 6.08 deg, pelvis z err mean 20.1 mm, gravity_z -0.989
+[TRACK] step 300/1375  mean mpjpe_l 29.5 mm  failed 0
+[TRACK]   t=351: mpjpe_l 33.7 mm, joint err 5.40 deg, pelvis z err mean 15.8 mm, gravity_z -0.992
+[TRACK]   t=401: mpjpe_l 27.3 mm, joint err 5.53 deg, pelvis z err mean 9.1 mm, gravity_z -0.995
+[TRACK] step 400/1375  mean mpjpe_l 30.6 mm  failed 0
+[TRACK]   t=451: mpjpe_l 21.7 mm, joint err 4.58 deg, pelvis z err mean 5.5 mm, gravity_z -0.996
+[TRACK]   t=501: mpjpe_l 25.2 mm, joint err 4.73 deg, pelvis z err mean 4.7 mm, gravity_z -0.995
+[TRACK] step 500/1375  mean mpjpe_l 29.8 mm  failed 0
+[TRACK]   t=551: mpjpe_l 21.6 mm, joint err 4.49 deg, pelvis z err mean 11.4 mm, gravity_z -0.995
+[TRACK]   t=601: mpjpe_l 26.0 mm, joint err 5.17 deg, pelvis z err mean 13.8 mm, gravity_z -0.983
+[TRACK] step 600/1375  mean mpjpe_l 30.1 mm  failed 0
+[TRACK]   t=651: mpjpe_l 22.6 mm, joint err 4.61 deg, pelvis z err mean 14.8 mm, gravity_z -0.991
+[TRACK]   t=701: mpjpe_l 18.9 mm, joint err 4.08 deg, pelvis z err mean 5.0 mm, gravity_z -0.995
+[TRACK] step 700/1375  mean mpjpe_l 30.2 mm  failed 0
+[TRACK]   t=751: mpjpe_l 20.1 mm, joint err 4.15 deg, pelvis z err mean 4.6 mm, gravity_z -0.996
+[TRACK]   t=801: mpjpe_l 21.2 mm, joint err 4.12 deg, pelvis z err mean 4.5 mm, gravity_z -0.994
+[TRACK] step 800/1375  mean mpjpe_l 30.0 mm  failed 0
+[TRACK]   t=851: mpjpe_l 20.5 mm, joint err 4.21 deg, pelvis z err mean 4.6 mm, gravity_z -0.995
+[TRACK]   t=901: mpjpe_l 23.3 mm, joint err 4.66 deg, pelvis z err mean 6.0 mm, gravity_z -0.994
+[TRACK] step 900/1375  mean mpjpe_l 30.2 mm  failed 0
+[TRACK]   t=951: mpjpe_l 20.5 mm, joint err 4.19 deg, pelvis z err mean 5.5 mm, gravity_z -0.994
+[TRACK]   t=1001: mpjpe_l 21.9 mm, joint err 4.51 deg, pelvis z err mean 4.4 mm, gravity_z -0.995
+[TRACK] step 1000/1375  mean mpjpe_l 30.2 mm  failed 0
+[TRACK]   t=1051: mpjpe_l 20.0 mm, joint err 4.68 deg, pelvis z err mean 4.3 mm, gravity_z -0.995
+[TRACK]   t=1101: mpjpe_l 20.9 mm, joint err 4.33 deg, pelvis z err mean 5.5 mm, gravity_z -0.992
+[TRACK] step 1100/1375  mean mpjpe_l 30.2 mm  failed 0
+[TRACK]   t=1151: mpjpe_l 22.5 mm, joint err 4.47 deg, pelvis z err mean 7.4 mm, gravity_z -0.989
+[TRACK]   t=1201: mpjpe_l 21.0 mm, joint err 4.27 deg, pelvis z err mean 6.0 mm, gravity_z -0.996
+[TRACK] step 1200/1375  mean mpjpe_l 30.3 mm  failed 0
+[TRACK]   t=1251: mpjpe_l 19.4 mm, joint err 4.04 deg, pelvis z err mean 4.8 mm, gravity_z -0.996
+[TRACK]   t=1301: mpjpe_l 20.1 mm, joint err 4.18 deg, pelvis z err mean 5.0 mm, gravity_z -0.995
+[TRACK] step 1300/1375  mean mpjpe_l 30.3 mm  failed 0
+[TRACK]   t=1351: mpjpe_l 20.1 mm, joint err 3.94 deg, pelvis z err mean 5.2 mm, gravity_z -0.993

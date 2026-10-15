@@ -1,0 +1,134 @@
+{
+ "checkpoint": "D:\\robot paper\\instinct_repro\\logs_server\\20260920_011638\\model_30000.pt",
+ "level": 9,
+ "steps": 3500,
+ "envs_per_terrain": 1,
+ "action_pathway_max_target_err": 2.384185791015625e-07,
+ "teacher": {
+  "perlin_rough": {
+   "episodes": 3,
+   "falls": 0,
+   "fall_rate": 0.0
+  },
+  "square_gaps": {
+   "episodes": 3,
+   "falls": 0,
+   "fall_rate": 0.0
+  },
+  "pyramid_stairs": {
+   "episodes": 3,
+   "falls": 0,
+   "fall_rate": 0.0
+  },
+  "pyramid_stairs_high": {
+   "episodes": 3,
+   "falls": 0,
+   "fall_rate": 0.0
+  },
+  "pyramid_stairs_inv": {
+   "episodes": 3,
+   "falls": 0,
+   "fall_rate": 0.0
+  },
+  "pyramid_stairs_inv_high": {
+   "episodes": 3,
+   "falls": 0,
+   "fall_rate": 0.0
+  },
+  "boxes": {
+   "episodes": 3,
+   "falls": 0,
+   "fall_rate": 0.0
+  },
+  "mesh_boxes": {
+   "episodes": 3,
+   "falls": 0,
+   "fall_rate": 0.0
+  },
+  "hf_pyramid_slope_inv": {
+   "episodes": 4,
+   "falls": 2,
+   "fall_rate": 0.5
+  }
+ },
+ "sonic": {
+  "dance_in_da_party_001__A464": {
+   "mpjpe_l_mm": 31.253568649291992,
+   "completed": 7,
+   "fails": 0,
+   "env_resets": 3
+  },
+  "dance_in_da_party_001__A464_M": {
+   "mpjpe_l_mm": 30.743804931640625,
+   "completed": 7,
+   "fails": 0,
+   "env_resets": 3
+  },
+  "forward_lunge_R_001__A359_M": {
+   "mpjpe_l_mm": 32.097164154052734,
+   "completed": 7,
+   "fails": 0,
+   "env_resets": 3
+  },
+  "macarena_001__A545": {
+   "mpjpe_l_mm": 21.727069854736328,
+   "completed": 0,
+   "fails": 0,
+   "env_resets": 8
+  },
+  "macarena_001__A545_M": {
+   "mpjpe_l_mm": 24.478851318359375,
+   "completed": 0,
+   "fails": 0,
+   "env_resets": 8
+  },
+  "neutral_kick_R_001__A543": {
+   "mpjpe_l_mm": 29.770780563354492,
+   "completed": 21,
+   "fails": 0,
+   "env_resets": 3
+  },
+  "neutral_kick_R_001__A543_M": {
+   "mpjpe_l_mm": 28.789936065673828,
+   "completed": 21,
+   "fails": 0,
+   "env_resets": 3
+  },
+  "squat_001__A359": {
+   "mpjpe_l_mm": 35.00163269042969,
+   "completed": 6,
+   "fails": 0,
+   "env_resets": 4
+  },
+  "tired_forward_lunge_R_001__A359_M": {
+   "mpjpe_l_mm": 35.252830505371094,
+   "completed": 0,
+   "fails": 0,
+   "env_resets": 9
+  },
+  "tired_one_leg_jumping_R_001__A359": {
+   "mpjpe_l_mm": 40.75733947753906,
+   "completed": 7,
+   "fails": 0,
+   "env_resets": 3
+  },
+  "tired_one_leg_jumping_R_001__A359_M": {
+   "mpjpe_l_mm": 39.84598922729492,
+   "completed": 7,
+   "fails": 0,
+   "env_resets": 3
+  },
+  "walking_quip_360_R_002__A428": {
+   "mpjpe_l_mm": 20.58281135559082,
+   "completed": 7,
+   "fails": 0,
+   "env_resets": 3
+  },
+  "walking_quip_360_R_002__A428_M": {
+   "mpjpe_l_mm": 20.29143714904785,
+   "completed": 7,
+   "fails": 0,
+   "env_resets": 3
+  }
+ }
+}

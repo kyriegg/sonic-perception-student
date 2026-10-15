@@ -1,0 +1,35 @@
+{
+  "checkpoint": "/root/autodl-tmp/logs/20260920_011638/model_30000.pt",
+  "task": "Instinct-Parkour-Target-Amp-G1-v0",
+  "level": 9,
+  "envs_per_terrain": 1000,
+  "steps": 10000,
+  "step_dt": 0.02,
+  "target_dis_threshold": 0.4,
+  "terrains": {
+    "perlin_rough": {
+      "episodes": 10000,
+      "episode_success_rate": 0.9995,
+      "robot_success_rate": 0.995,
+      "goals": 23290,
+      "goal_reach_rate": 0.7285530270502362,
+      "mean_reaching_time_s": 5.126560467239364
+    },
+    "square_gaps": {
+      "episodes": 10006,
+      "episode_success_rate": 0.9976014391365181,
+      "robot_success_rate": 0.982,
+      "goals": 9478,
+      "goal_reach_rate": 0.9975733277062672,
+      "mean_reaching_time_s": 4.586288627173647
+    },
+    "pyramid_stairs": {
+      "episodes": 10025,
+      "episode_success_rate": 0.9836408977556109,
+      "robot_success_rate": 0.864,
+      "goals": 9531,
+      "goal_reach_rate": 0.9820585457979226,
+      "mean_reaching_time_s": 4.959839628216548
+    }
+  }
+}

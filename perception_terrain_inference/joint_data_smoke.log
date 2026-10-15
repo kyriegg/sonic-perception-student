@@ -1,0 +1,396 @@
+﻿[Warning] [simulation_app.simulation_app] Modules: ['omni.kit_app'] were loaded before SimulationApp was started and might not be loaded correctly.
+[Warning] [simulation_app.simulation_app] Please check to make sure no extra omniverse or pxr modules are imported before the call to SimulationApp(...)
+Loading user config located at: 'd:/anconda/envs/instinct_repro/lib/site-packages/omni/data/Kit/Isaac-Sim/4.5/user.config.json'
+[Info] [carb] Logging to file: d:/anconda/envs/instinct_repro/lib/site-packages/omni/logs/Kit/Isaac-Sim/4.5/kit_20261010_170401.log
+2026-10-10 15:04:01 [0ms] [Warning] [omni.kit.app.plugin] No crash reporter present, dumps uploading isn't available.
+2026-10-10 15:04:01 [38ms] [Warning] [omni.ext.plugin] [ext: isaaclab_contrib] Extensions config 'extension.toml' doesn't exist 'd:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab_contrib' or 'd:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab_contrib/config'
+2026-10-10 15:04:01 [40ms] [Warning] [omni.ext.plugin] [ext: rendering_modes] Extensions config 'extension.toml' doesn't exist 'd:/robot paper/instinct_repro/isaaclab_instinct/apps/rendering_modes' or 'd:/robot paper/instinct_repro/isaaclab_instinct/apps/rendering_modes/config'
+2026-10-10 15:04:02 [655ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-10-10 15:04:03 [1,505ms] [Warning] [omni.datastore] OmniHub is inaccessible
+2026-10-10 15:04:03 [1,730ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-10-10 15:04:12 [10,626ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 15:04:12 [10,626ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 15:04:12 [10,626ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 15:04:12 [10,626ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 581.80        | Graphics API: D3D12
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. | Yes: 0 |     | 7957    MB | 10de      | d8330100.. |
+|     |                                  |        |     |            | 28e0      | 0          |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Iris(R) Xe Graphics     |        |     | 128     MB | 8086      | 942a0100.. |
+|     |                                  |        |     |            | a7a0      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|---------------------------------------------------------------------------------------------|
+| 2   | Intel(R) Iris(R) Xe Graphics     |        |     | 128     MB | 8086      | 6a370200.. |
+|     |                                  |        |     |            | a7a0      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|=============================================================================================|
+| OS: Windows 11 Home China, Version: 10.0 (25H2), Build: 26200, Kernel: 10.0.26100.9457
+| Processor: 13th Gen Intel(R) Core(TM) i7-13700H
+| Cores: 14 | Logical Cores: 20
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 16108 | Free Memory: 7173
+| Total Page/Swap (MB): 37612 | Free Page/Swap: 13630
+|---------------------------------------------------------------------------------------------|
+2026-10-10 15:04:14 [12,726ms] [Warning] [isaaclab.envs.manager_based_env] Seed not set for the environment. The environment creation may not be deterministic.
+python.exe : 2026-10-10 15:04:14 [13,047ms] [Error] [gpu.foundation.plugin] DriverShaderCacheManager::init() called wit
+hout a shutdown()!
+At D:\robot paper\instinct_repro\run_instinct.ps1:15 char:1
++ & "D:\anconda\envs\instinct_repro\python.exe" $Script @ScriptArgs
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-10 15:0...t a shutdown()!:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+D:\anconda\envs\instinct_repro\lib\site-packages\torch\functional.py:534: UserWarning: torch.meshgrid: in an upcoming r
+elease, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pyt
+orch\builder\windows\pytorch\aten\src\ATen\native\TensorShape.cpp:3596.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: D:\robot paper\instinct_repro\IsaacLab_instinct\apps\isaaclab.python.headless.kit
+Failed to import RslRlVecEnvWrapper, ignoring...
+[INFO]: Parsing configuration from: instinctlab.tasks.parkour.config.g1.g1_parkour_target_amp_cfg:G1ParkourEnvCfg
+[INFO]: Parsing configuration from: instinctlab.tasks.parkour.config.g1.agents.instinct_rl_amp_cfg:G1ParkourPPORunnerCfg
+[INFO]: Base environment:
+	Environment device    : cuda:0
+	Environment seed      : None
+	Physics step-size     : 0.005
+	Rendering step-size   : 0.02
+	Environment step-size : 0.02
+[INFO] Generating terrains based on curriculum took : 2.130178 seconds
+Detected 90 edges after processing.
+Generate virtual obstacle edges : 0.235636 seconds
+[INFO]: Time taken for scene creation : 7.033905 seconds
+[INFO]: Scene manager:  <class InteractiveScene>
+	Number of environments: 2
+	Environment spacing   : 2.5
+	Source prim name      : /World/envs/env_0
+	Global prim paths     : ['/World/ground']
+	Replicate physics     : True
+[INFO]: Starting the simulation. This may take a few seconds. Please wait...
+[AmassMotion Motion] 1 files found
+[AMASS Motion] Loading motion files, should be 1 in total...
+[AMASS Motion] All 1 motion files loaded.
+[AMASS Motion] buffer lengths statistics: mean: 18981.0, max: 18981, min: 18981,
+<MotionReferenceManager> contains 1 motion buffers to use.
++-----------------------------+
+|    Active Motion Buffers    |
++----------+------------------+
+| Name     | Num Trajectories |
++----------+------------------+
+| run_walk |                1 |
++----------+------------------+
+
+[INFO]: Time taken for simulation start : 5.114190 seconds
+[INFO] Command Manager:  <CommandManager> contains 1 active terms.
++---------------------------------------------+
+|             Active Command Terms            |
++-------+---------------+---------------------+
+| Index | Name          |         Type        |
++-------+---------------+---------------------+
+|   0   | base_velocity | PoseVelocityCommand |
++-------+---------------+---------------------+
+
+[INFO] Event Manager:  <EventManager> contains 2 active terms.
++----------------------------------------+
+| Active Event Terms in Mode: 'startup'  |
++--------+-------------------------------+
+| Index  | Name                          |
++--------+-------------------------------+
+|   0    | physics_material              |
+|   1    | register_virtual_obstacles    |
++--------+-------------------------------+
++-------------------------------------+
+| Active Event Terms in Mode: 'reset' |
++---------+---------------------------+
+|  Index  | Name                      |
++---------+---------------------------+
+|    0    | reset_base                |
+|    1    | reset_robot_joints        |
++---------+---------------------------+
+
+[INFO] Recorder Manager:  <RecorderManager> contains 0 active terms.
++---------------------+
+| Active Recorder Terms |
++-----------+---------+
+|   Index   | Name    |
++-----------+---------+
++-----------+---------+
+
+[INFO] Action Manager:  <ActionManager> contains 1 active terms.
++------------------------------------+
+|  Active Action Terms (shape: 29)   |
++--------+-------------+-------------+
+| Index  | Name        |   Dimension |
++--------+-------------+-------------+
+|   0    | joint_pos   |          29 |
++--------+-------------+-------------+
+
+[INFO] Observation Manager: <ObservationManager> contains 4 groups.
++-----------------------------------------------+
+|  Active Observation Terms in Group: 'policy'  |
++--------+----------------------+---------------+
+| Index  | Name                 |     Shape     |
++--------+----------------------+---------------+
+|   0    | base_ang_vel         |     (24,)     |
+|   1    | projected_gravity    |     (24,)     |
+|   2    | velocity_commands    |     (24,)     |
+|   3    | joint_pos            |     (232,)    |
+|   4    | joint_vel            |     (232,)    |
+|   5    | actions              |     (232,)    |
+|   6    | depth_image          |  (8, 18, 32)  |
++--------+----------------------+---------------+
++-----------------------------------------------+
+|  Active Observation Terms in Group: 'critic'  |
++--------+----------------------+---------------+
+| Index  | Name                 |     Shape     |
++--------+----------------------+---------------+
+|   0    | base_lin_vel         |     (24,)     |
+|   1    | base_ang_vel         |     (24,)     |
+|   2    | projected_gravity    |     (24,)     |
+|   3    | velocity_commands    |     (24,)     |
+|   4    | joint_pos            |     (232,)    |
+|   5    | joint_vel            |     (232,)    |
+|   6    | actions              |     (232,)    |
+|   7    | depth_image          |  (8, 18, 32)  |
++--------+----------------------+---------------+
++--------------------------------------------------+
+| Active Observation Terms in Group: 'amp_policy'  |
++----------+---------------------------+-----------+
+|  Index   | Name                      |   Shape   |
++----------+---------------------------+-----------+
+|    0     | projected_gravity         |   (30,)   |
+|    1     | joint_pos_rel             |   (290,)  |
+|    2     | joint_vel                 |   (290,)  |
+|    3     | base_lin_vel              |   (30,)   |
+|    4     | base_ang_vel              |   (30,)   |
++----------+---------------------------+-----------+
++---------------------------------------------------+
+| Active Observation Terms in Group: 'amp_reference' |
++----------+----------------------------+-----------+
+|  Index   | Name                       |   Shape   |
++----------+----------------------------+-----------+
+|    0     | projected_gravity          |   (30,)   |
+|    1     | joint_pos_rel              |   (290,)  |
+|    2     | joint_vel                  |   (290,)  |
+|    3     | base_lin_vel               |   (30,)   |
+|    4     | base_ang_vel               |   (30,)   |
++----------+----------------------------+-----------+
+
+[INFO] Termination Manager:  <TerminationManager> contains 5 active terms.
++--------------------------------------+
+|       Active Termination Terms       |
++-------+-------------------+----------+
+| Index | Name              | Time Out |
++-------+-------------------+----------+
+|   0   | time_out          |   True   |
+|   1   | terrain_out_bound |   True   |
+|   2   | base_contact      |  False   |
+|   3   | bad_orientation   |  False   |
+|   4   | root_height       |  False   |
++-------+-------------------+----------+
+
+[INFO] Reward Manager:  <RewardManager> contains 0 active terms.
++-----------------------+
+|  Active Reward Terms  |
++-------+------+--------+
+| Index | Name | Weight |
++-------+------+--------+
++-------+------+--------+
+
+[INFO] Curriculum Manager:  <CurriculumManager> contains 0 active terms.
++----------------------+
+| Active Curriculum Terms |
++-----------+----------+
+|   Index   | Name     |
++-----------+----------+
++-----------+----------+
+
+[INFO] Multi-Reward Manager:  <MultiRewardManager> contains 1 active groups.
+and 26 active reward terms.
++---------------------------------------------------------+
+|                Active Reward Group Terms                |
++-------+---------+---------------------------+-----------+
+| Index | Group   |            Name           |    Weight |
++-------+---------+---------------------------+-----------+
+|   0   | rewards |    track_lin_vel_xy_exp   |       2.0 |
+|   1   | rewards |    track_ang_vel_z_exp    |       2.0 |
+|   2   | rewards |       heading_error       |      -1.0 |
+|   3   | rewards |         dont_wait         |      -0.5 |
+|   4   | rewards |          is_alive         |       3.0 |
+|   5   | rewards |        stand_still        |      -0.3 |
+|   6   | rewards | volume_points_penetration |      -4.0 |
+|   7   | rewards |       feet_air_time       |       0.5 |
+|   8   | rewards |         feet_slide        |      -0.4 |
+|   9   | rewards |    joint_deviation_hip    |      -0.5 |
+|   10  | rewards |       ang_vel_xy_l2       |     -0.05 |
+|   11  | rewards |       dof_torques_l2      |  -1.5e-07 |
+|   12  | rewards |         dof_acc_l2        | -1.25e-07 |
+|   13  | rewards |         dof_vel_l2        |   -0.0001 |
+|   14  | rewards |       action_rate_l2      |    -0.005 |
+|   15  | rewards |    flat_orientation_l2    |      -3.0 |
+|   16  | rewards |   pelvis_orientation_l2   |      -3.0 |
+|   17  | rewards |       feet_flat_ori       |      -0.4 |
+|   18  | rewards |       feet_at_plane       |      -0.1 |
+|   19  | rewards |       feet_close_xy       |       0.4 |
+|   20  | rewards |           energy          |    -5e-05 |
+|   21  | rewards |     freeze_upper_body     |    -0.004 |
+|   22  | rewards |       dof_pos_limits      |      -1.0 |
+|   23  | rewards |       dof_vel_limits      |      -1.0 |
+|   24  | rewards |       torque_limits       |     -0.01 |
+|   25  | rewards |     undesired_contacts    |      -1.0 |
++-------+---------+---------------------------+-----------+
+
+[INFO] Monitor Manager:  <MonitorManager> contains 0 active groups.
++------------------------+
+|  Active Monitor Terms  |
++--------+-------+-------+
+| Index  |  Name |  Func |
++--------+-------+-------+
++--------+-------+-------+
+
+[INFO]: Completed setting up the environment...
+obs_format to build EncoderMoEActorCritic: {'policy': {'base_ang_vel': (24,), 'projected_gravity': (24,), 'velocity_commands': (24,), 'joint_pos': (232,), 'joint_vel': (232,), 'actions': (232,), 'depth_image': (8, 18, 32)}, 'critic': {'base_lin_vel': (24,), 'base_ang_vel': (24,), 'projected_gravity': (24,), 'velocity_commands': (24,), 'joint_pos': (232,), 'joint_vel': (232,), 'actions': (232,), 'depth_image': (8, 18, 32)}, 'amp_policy': {'projected_gravity': (30,), 'joint_pos_rel': (290,), 'joint_vel': (290,), 'base_lin_vel': (30,), 'base_ang_vel': (30,)}, 'amp_reference': {'projected_gravity': (30,), 'joint_pos_rel': (290,), 'joint_vel': (290,), 'base_lin_vel': (30,), 'base_ang_vel': (30,)}}
+Actor MLP: MoeLayer(
+  (act_fn): ELU(alpha=1.0)
+  (gate): Sequential(
+    (0): Linear(in_features=896, out_features=4, bias=True)
+  )
+  (experts): ModuleList(
+    (0-3): 4 x Sequential(
+      (0): Linear(in_features=896, out_features=256, bias=True)
+      (1): ELU(alpha=1.0)
+      (2): Linear(in_features=256, out_features=128, bias=True)
+      (3): ELU(alpha=1.0)
+      (4): Linear(in_features=128, out_features=64, bias=True)
+      (5): ELU(alpha=1.0)
+      (6): Linear(in_features=64, out_features=29, bias=True)
+    )
+  )
+)
+Critic MLP: MoeLayer(
+  (act_fn): ELU(alpha=1.0)
+  (gate): Sequential(
+    (0): Linear(in_features=920, out_features=4, bias=True)
+  )
+  (experts): ModuleList(
+    (0-3): 4 x Sequential(
+      (0): Linear(in_features=920, out_features=256, bias=True)
+      (1): ELU(alpha=1.0)
+      (2): Linear(in_features=256, out_features=128, bias=True)
+      (3): ELU(alpha=1.0)
+      (4): Linear(in_features=128, out_features=64, bias=True)
+      (5): ELU(alpha=1.0)
+      (6): Linear(in_features=64, out_features=1, bias=True)
+    )
+  )
+)
+Actor Encoder: ParallelLayer(1 blocks): ModuleDict(
+  (depth_encoder): Conv2dHeadModel(
+    (conv): Conv2dModel(
+      (conv): Sequential(
+        (0): Conv2d(8, 4, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU()
+      )
+    )
+    (head): MlpModel(
+      (model): Sequential(
+        (0): Linear(in_features=2304, out_features=256, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=256, out_features=256, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=256, out_features=128, bias=True)
+        (5): ReLU()
+      )
+    )
+  )
+)
+Critic Encoder: ParallelLayer(1 blocks): ModuleDict(
+  (depth_encoder): Conv2dHeadModel(
+    (conv): Conv2dModel(
+      (conv): Sequential(
+        (0): Conv2d(8, 4, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): ReLU()
+      )
+    )
+    (head): MlpModel(
+      (model): Sequential(
+        (0): Linear(in_features=2304, out_features=256, bias=True)
+        (1): ReLU()
+        (2): Linear(in_features=256, out_features=256, bias=True)
+        (3): ReLU()
+        (4): Linear(in_features=256, out_features=128, bias=True)
+        (5): ReLU()
+      )
+    )
+  )
+)
+Discriminator Network Structure: Discriminator(
+  (model): MlpModel(
+    (model): Sequential(
+      (0): Linear(in_features=670, out_features=1024, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=1024, out_features=512, bias=True)
+      (3): ReLU()
+      (4): Linear(in_features=512, out_features=1, bias=True)
+    )
+  )
+)
+[REC] loading D:\robot paper\instinct_repro\logs_server\20260920_011638\model_30000.pt
+[REC] terrains ['perlin_rough'], level 9, 2 robots each, dt 0.02
+[REC] step 0/50
+[REC] perlin_rough: saved D:\robot paper\instinct_repro\joint_data\smoke\joints_model_30000_perlin_rough_L9.npz  falls 0
+[REC] DONE {
+  "perlin_rough": {
+    "npz": "D:\\robot paper\\instinct_repro\\joint_data\\smoke\\joints_model_30000_perlin_rough_L9.npz",
+    "episodes_ended": 0,
+    "falls": 0
+  }
+}
+Traceback (most recent call last):
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 71, in <
+lambda>
+2026-10-10 15:04:15 [13,322ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 15:04:15 [13,322ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 15:04:15 [13,322ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 15:04:15 [13,322ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 581.80        | Graphics API: D3D12
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. | Yes: 0 |     | 7957    MB | 10de      | d8330100.. |
+|     |                                  |        |     |            | 28e0      | 0          |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Iris(R) Xe Graphics     |        |     | 128     MB | 8086      | 942a0100.. |
+|     |                                  |        |     |            | a7a0      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|---------------------------------------------------------------------------------------------|
+| 2   | Intel(R) Iris(R) Xe Graphics     |        |     | 128     MB | 8086      | 6a370200.. |
+|     |                                  |        |     |            | a7a0      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|=============================================================================================|
+| OS: Windows 11 Home China, Version: 10.0 (25H2), Build: 26200, Kernel: 10.0.26100.9457
+| Processor: 13th Gen Intel(R) Core(TM) i7-13700H
+| Cores: 14 | Logical Cores: 20
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 16108 | Free Memory: 6736
+| Total Page/Swap (MB): 37612 | Free Page/Swap: 13134
+|---------------------------------------------------------------------------------------------|
+2026-10-10 15:04:15 [14,178ms] [Warning] [omni.graph.visualization.nodes._impl.extension] No Viewport Window to add omni.graph.visualization.nodes-2.1.1 scene to
+2026-10-10 15:04:16 [14,714ms] [Warning] [omni.ext._impl._internal] Found class `WrappedClass` derived from `omni.ext.IExt` in module: 'omni.kit.window.content_browser', but it was imported from other extension: 'D:\anconda\envs\instinct_repro\Lib\site-packages\omni\kernel\py\omni\kit\app\_impl\__init__.py', which is not a subpath to: 'd:\anconda\envs\instinct_repro\lib\site-packages\isaacsim\extscache\omni.kit.window.content_browser-2.10.3+d02c707b'. Do not import `IExt` derived class from other extension in your public namespace.
+    lambda event, obj=weakref.proxy(self): obj._invalidate_initialize_callback(event),
+  File "D:\robot paper\instinct_repro\InstinctLab\source\instinctlab\instinctlab\sensors\volume_points\volume_points.py
+", line 246, in _invalidate_initialize_callback
+    delattr(self, "points_visualizer")
+AttributeError: points_visualizer

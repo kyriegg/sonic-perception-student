@@ -1,0 +1,70 @@
+﻿[Warning] [simulation_app.simulation_app] Modules: ['omni.kit_app'] were loaded before SimulationApp was started and might not be loaded correctly.
+[Warning] [simulation_app.simulation_app] Please check to make sure no extra omniverse or pxr modules are imported before the call to SimulationApp(...)
+Loading user config located at: 'd:/anconda/envs/instinct_repro/lib/site-packages/omni/data/Kit/Isaac-Sim/4.5/user.config.json'
+[Info] [carb] Logging to file: d:/anconda/envs/instinct_repro/lib/site-packages/omni/logs/Kit/Isaac-Sim/4.5/kit_20261010_175948.log
+2026-10-10 15:59:48 [0ms] [Warning] [omni.kit.app.plugin] No crash reporter present, dumps uploading isn't available.
+2026-10-10 15:59:48 [29ms] [Warning] [omni.ext.plugin] [ext: isaaclab_contrib] Extensions config 'extension.toml' doesn't exist 'd:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab_contrib' or 'd:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab_contrib/config'
+2026-10-10 15:59:48 [30ms] [Warning] [omni.ext.plugin] [ext: rendering_modes] Extensions config 'extension.toml' doesn't exist 'd:/robot paper/instinct_repro/isaaclab_instinct/apps/rendering_modes' or 'd:/robot paper/instinct_repro/isaaclab_instinct/apps/rendering_modes/config'
+2026-10-10 15:59:49 [641ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-10-10 15:59:50 [1,458ms] [Warning] [omni.datastore] OmniHub is inaccessible
+2026-10-10 15:59:50 [1,677ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-10-10 15:59:59 [10,568ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 15:59:59 [10,568ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 15:59:59 [10,568ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-10-10 15:59:59 [10,568ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 581.80        | Graphics API: D3D12
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. | Yes: 0 |     | 7957    MB | 10de      | d8330100.. |
+|     |                                  |        |     |            | 28e0      | 0          |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Iris(R) Xe Graphics     |        |     | 128     MB | 8086      | 942a0100.. |
+|     |                                  |        |     |            | a7a0      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|---------------------------------------------------------------------------------------------|
+| 2   | Intel(R) Iris(R) Xe Graphics     |        |     | 128     MB | 8086      | 6a370200.. |
+|     |                                  |        |     |            | a7a0      | 0          |
+|     |                                  |        |     |            | N/A       |            |
+|=============================================================================================|
+| OS: Windows 11 Home China, Version: 10.0 (25H2), Build: 26200, Kernel: 10.0.26100.9457
+| Processor: 13th Gen Intel(R) Core(TM) i7-13700H
+| Cores: 14 | Logical Cores: 20
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 16108 | Free Memory: 5510
+| Total Page/Swap (MB): 37612 | Free Page/Swap: 17518
+|---------------------------------------------------------------------------------------------|
+python.exe : 2026-10-10 16:00:02 [13,516ms] [Error] [gpu.foundation.plugin] DriverShaderCacheManager::init() called wit
+hout a shutdown()!
+At D:\robot paper\instinct_repro\run_instinct.ps1:15 char:1
++ & "D:\anconda\envs\instinct_repro\python.exe" $Script @ScriptArgs
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-10 16:0...t a shutdown()!:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+D:\robot paper\sonic_student\sonic_net.py:89: FutureWarning: You are using `torch.load` with `weights_only=False` (the 
+current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle d
+ata which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#u
+ntrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`.
+ This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be 
+loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We 
+recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. 
+Please open an issue on GitHub for any issues related to this experimental feature.
+  sd = torch.load(path, map_location="cpu")
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: D:\robot paper\instinct_repro\IsaacLab_instinct\apps\isaaclab.python.headless.kit
+[TRACK] after reset: mpjpe_l 69.9 mm (max 140.5), joint err 0.00 deg, pelvis z err 12.3 mm, pelvis xy err 28.3 mm
+[TRACK]   t=1: mpjpe_l 71.2 mm, joint err 2.99 deg, pelvis z err mean 7.9 mm, gravity_z -0.957
+[TRACK] step 0/1375  mean mpjpe_l 71.2 mm  failed 0
+[TRACK]   t=2: mpjpe_l 72.3 mm, joint err 4.72 deg, pelvis z err mean 1.2 mm, gravity_z -0.942
+[TRACK]   t=3: mpjpe_l 77.3 mm, joint err 5.30 deg, pelvis z err mean 9.3 mm, gravity_z -0.925
+[TRACK]   t=4: mpjpe_l 84.9 mm, joint err 6.09 deg, pelvis z err mean 22.4 mm, gravity_z -0.911
+[TRACK]   t=5: mpjpe_l 94.2 mm, joint err 7.38 deg, pelvis z err mean 37.3 mm, gravity_z -0.916
+[TRACK]   t=51: mpjpe_l 362.6 mm, joint err 32.99 deg, pelvis z err mean 387.0 mm, gravity_z -0.263
+[TRACK]   t=101: mpjpe_l 386.1 mm, joint err 36.84 deg, pelvis z err mean 582.3 mm, gravity_z -0.195
+[TRACK] step 100/1375  mean mpjpe_l 193.1 mm  failed 12
