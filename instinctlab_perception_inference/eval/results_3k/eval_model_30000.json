@@ -1,0 +1,104 @@
+{
+  "checkpoint": "/root/autodl-tmp/logs/20260920_011638/model_30000.pt",
+  "task": "Instinct-Parkour-Target-Amp-G1-v0",
+  "num_envs": 4096,
+  "steps": 3000,
+  "episodes": 12298,
+  "fall_rate": 0.01284761749878029,
+  "reasons": {
+    "bad_orientation": 16,
+    "base_contact": 4,
+    "root_height": 138,
+    "time_out": 12140
+  },
+  "mean_dist_m": 3.1171690653845245,
+  "mean_terrain_level_final": 3.973876953125,
+  "per_subterrain": {
+    "perlin_rough": {
+      "episodes": 615,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "mean_dist_m": 2.699206348357162
+    },
+    "perlin_rough_stand": {
+      "episodes": 615,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "mean_dist_m": 0.33905207118458625
+    },
+    "square_gaps": {
+      "episodes": 1236,
+      "falls": 31,
+      "fall_rate": 0.025080906148867314,
+      "mean_dist_m": 3.6042142475692973
+    },
+    "pyramid_stairs": {
+      "episodes": 1842,
+      "falls": 1,
+      "fall_rate": 0.0005428881650380022,
+      "mean_dist_m": 3.646503223706923
+    },
+    "pyramid_stairs_high": {
+      "episodes": 1230,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "mean_dist_m": 3.659357511318796
+    },
+    "pyramid_stairs_inv": {
+      "episodes": 1842,
+      "falls": 1,
+      "fall_rate": 0.0005428881650380022,
+      "mean_dist_m": 3.6605004239483585
+    },
+    "pyramid_stairs_inv_high": {
+      "episodes": 1230,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "mean_dist_m": 3.618373635968542
+    },
+    "boxes": {
+      "episodes": 1228,
+      "falls": 21,
+      "fall_rate": 0.01710097719869707,
+      "mean_dist_m": 2.5916756138278334
+    },
+    "mesh_boxes": {
+      "episodes": 1233,
+      "falls": 103,
+      "fall_rate": 0.08353609083536091,
+      "mean_dist_m": 2.5295787884461762
+    },
+    "hf_pyramid_slope_inv": {
+      "episodes": 1227,
+      "falls": 1,
+      "fall_rate": 0.0008149959250203749,
+      "mean_dist_m": 2.6886300717244422
+    }
+  },
+  "per_level": {
+    "0": {
+      "episodes": 2092,
+      "fall_rate": 0.013862332695984704
+    },
+    "1": {
+      "episodes": 2737,
+      "fall_rate": 0.018633540372670808
+    },
+    "2": {
+      "episodes": 3354,
+      "fall_rate": 0.009540846750149075
+    },
+    "3": {
+      "episodes": 2048,
+      "fall_rate": 0.0107421875
+    },
+    "4": {
+      "episodes": 1375,
+      "fall_rate": 0.011636363636363636
+    },
+    "5": {
+      "episodes": 692,
+      "fall_rate": 0.011560693641618497
+    }
+  }
+}

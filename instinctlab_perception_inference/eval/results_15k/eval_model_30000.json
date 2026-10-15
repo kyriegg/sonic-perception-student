@@ -1,0 +1,121 @@
+{
+  "checkpoint": "/root/autodl-tmp/logs/20260920_011638/model_30000.pt",
+  "task": "Instinct-Parkour-Target-Amp-G1-v0",
+  "num_envs": 4096,
+  "steps": 15000,
+  "episodes": 61612,
+  "fall_rate": 0.019168343829124197,
+  "reasons": {
+    "bad_orientation": 234,
+    "base_contact": 83,
+    "root_height": 864,
+    "terrain_out_bound": 1,
+    "time_out": 60430
+  },
+  "mean_dist_m": 3.1008535025858524,
+  "mean_terrain_level_final": 6.17578125,
+  "per_subterrain": {
+    "perlin_rough": {
+      "episodes": 3075,
+      "falls": 4,
+      "fall_rate": 0.0013008130081300813,
+      "mean_dist_m": 2.6900264222556496
+    },
+    "perlin_rough_stand": {
+      "episodes": 3075,
+      "falls": 0,
+      "fall_rate": 0.0,
+      "mean_dist_m": 0.34476536976930694
+    },
+    "square_gaps": {
+      "episodes": 6152,
+      "falls": 26,
+      "fall_rate": 0.0042262678803641094,
+      "mean_dist_m": 3.6456002805561254
+    },
+    "pyramid_stairs": {
+      "episodes": 9210,
+      "falls": 25,
+      "fall_rate": 0.0027144408251900108,
+      "mean_dist_m": 3.636457250518856
+    },
+    "pyramid_stairs_high": {
+      "episodes": 6150,
+      "falls": 6,
+      "fall_rate": 0.000975609756097561,
+      "mean_dist_m": 3.652957860837138
+    },
+    "pyramid_stairs_inv": {
+      "episodes": 9210,
+      "falls": 2,
+      "fall_rate": 0.00021715526601520088,
+      "mean_dist_m": 3.663177213674648
+    },
+    "pyramid_stairs_inv_high": {
+      "episodes": 6150,
+      "falls": 3,
+      "fall_rate": 0.0004878048780487805,
+      "mean_dist_m": 3.6360418849601976
+    },
+    "boxes": {
+      "episodes": 6154,
+      "falls": 189,
+      "fall_rate": 0.030711732206694833,
+      "mean_dist_m": 2.624713844339114
+    },
+    "mesh_boxes": {
+      "episodes": 6272,
+      "falls": 676,
+      "fall_rate": 0.10778061224489796,
+      "mean_dist_m": 2.5243012926497315
+    },
+    "hf_pyramid_slope_inv": {
+      "episodes": 6164,
+      "falls": 250,
+      "fall_rate": 0.040558079169370535,
+      "mean_dist_m": 2.4737475271615343
+    }
+  },
+  "per_level": {
+    "0": {
+      "episodes": 2734,
+      "fall_rate": 0.014264813460131675
+    },
+    "1": {
+      "episodes": 3991,
+      "fall_rate": 0.017288900025056377
+    },
+    "2": {
+      "episodes": 5211,
+      "fall_rate": 0.011706006524659375
+    },
+    "3": {
+      "episodes": 6339,
+      "fall_rate": 0.00836094021138981
+    },
+    "4": {
+      "episodes": 6724,
+      "fall_rate": 0.012343842950624628
+    },
+    "5": {
+      "episodes": 6930,
+      "fall_rate": 0.008802308802308803
+    },
+    "6": {
+      "episodes": 7126,
+      "fall_rate": 0.01796239124333427
+    },
+    "7": {
+      "episodes": 7262,
+      "fall_rate": 0.018039107683833655
+    },
+    "8": {
+      "episodes": 7597,
+      "fall_rate": 0.033434250361984996
+    },
+    "9": {
+      "episodes": 7698,
+      "fall_rate": 0.03923096908287867
+    }
+  }
+}

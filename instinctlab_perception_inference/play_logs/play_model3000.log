@@ -1,0 +1,90 @@
+﻿[Warning] [simulation_app.simulation_app] Modules: ['omni.kit_app'] were loaded before SimulationApp was started and might not be loaded correctly.
+[Warning] [simulation_app.simulation_app] Please check to make sure no extra omniverse or pxr modules are imported before the call to SimulationApp(...)
+Loading user config located at: 'd:/anconda/envs/instinct_repro/lib/site-packages/omni/data/Kit/Isaac-Sim/4.5/user.config.json'
+[Info] [carb] Logging to file: d:/anconda/envs/instinct_repro/lib/site-packages/omni/logs/Kit/Isaac-Sim/4.5/kit_20260924_215157.log
+2026-09-24 19:51:57 [0ms] [Warning] [omni.kit.app.plugin] No crash reporter present, dumps uploading isn't available.
+2026-09-24 19:51:57 [34ms] [Warning] [omni.ext.plugin] [ext: isaaclab_contrib] Extensions config 'extension.toml' doesn't exist 'd:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab_contrib' or 'd:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab_contrib/config'
+2026-09-24 19:51:57 [36ms] [Warning] [omni.ext.plugin] [ext: rendering_modes] Extensions config 'extension.toml' doesn't exist 'd:/robot paper/instinct_repro/isaaclab_instinct/apps/rendering_modes' or 'd:/robot paper/instinct_repro/isaaclab_instinct/apps/rendering_modes/config'
+2026-09-24 19:51:58 [1,391ms] [Warning] [omni.datastore] OmniHub is inaccessible
+2026-09-24 19:52:00 [3,332ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-09-24 19:52:00 [3,332ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-09-24 19:52:00 [3,332ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+2026-09-24 19:52:00 [3,332ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Iris(R) Xe Graphics
+python.exe : 2026-09-24 19:52:00 [3,332ms] [Error] [gpu.foundation.plugin] Multiple Installable Client Drivers (ICDs) a
+re found for the same GPU on the system. This causes the same GPU to be reported multiple times by more than one driver
+ and leads to instability or crash. 
+At D:\robot paper\instinct_repro\run_instinct.ps1:15 char:1
++ & "D:\anconda\envs\instinct_repro\python.exe" $Script @ScriptArgs
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-09-24 19:5...lity or crash. :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+For Windows, a clean driver reinstallation may be required. It might also happen after connecting with some certain rem
+ote desktop applications.
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 581.80        | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. |        |     | 7957    MB | 10de      | 7b380100.. |
+|     |                                  |        |     |            | 28e0      | cafb4d3d.. |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Iris(R) Xe Graphics     |        |     | 8054    MB | 8086      | 382f0100.. |
+|     |                                  |        |     |            | a7a0      | 8680a0a7.. |
+|     |                                  |        |     |            | N/A       |            |
+|---------------------------------------------------------------------------------------------|
+| 2   | Intel(R) Iris(R) Xe Graphics     |        |     | 8054    MB | 8086      | 522d0200.. |
+|     |                                  |        |     |            | a7a0      | 8680a0a7.. |
+|     |                                  |        |     |            | N/A       |            |
+|=============================================================================================|
+| OS: Windows 11 Home China, Version: 10.0 (25H2), Build: 26200, Kernel: 10.0.26100.9457
+| Processor: 13th Gen Intel(R) Core(TM) i7-13700H
+| Cores: 14 | Logical Cores: 20
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 16108 | Free Memory: 6154
+| Total Page/Swap (MB): 48113 | Free Page/Swap: 33034
+|---------------------------------------------------------------------------------------------|
+2026-09-24 19:52:01 [3,565ms] [Error] [gpu.foundation.plugin] Multiple Installable Client Drivers (ICDs) are found for 
+the same GPU on the system. This causes the same GPU to be reported multiple times by more than one driver and leads to
+ instability or crash. 
+For Windows, a clean driver reinstallation may be required. It might also happen after connecting with some certain rem
+ote desktop applications.
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 581.80        | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. |        |     | 7957    MB | 10de      | 7b380100.. |
+|     |                                  |        |     |            | 28e0      | cafb4d3d.. |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Iris(R) Xe Graphics     |        |     | 8054    MB | 8086      | 382f0100.. |
+|     |                                  |        |     |            | a7a0      | 8680a0a7.. |
+|     |                                  |        |     |            | N/A       |            |
+|---------------------------------------------------------------------------------------------|
+| 2   | Intel(R) Iris(R) Xe Graphics     |        |     | 8054    MB | 8086      | 522d0200.. |
+|     |                                  |        |     |            | a7a0      | 8680a0a7.. |
+|     |                                  |        |     |            | N/A       |            |
+|=============================================================================================|
+| OS: Windows 11 Home China, Version: 10.0 (25H2), Build: 26200, Kernel: 10.0.26100.9457
+| Processor: 13th Gen Intel(R) Core(TM) i7-13700H
+| Cores: 14 | Logical Cores: 20
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 16108 | Free Memory: 6133
+| Total Page/Swap (MB): 48113 | Free Page/Swap: 33012
+|---------------------------------------------------------------------------------------------|
+2026-09-24 19:52:01 [3,569ms] [Error] [omni.gpu_foundation_factory.plugin] Failed to create any GPU devices, including 
+an attempt with compatibility mode.
+2026-09-24 19:52:23 [25,679ms] [Error] [omni.kit.renderer.plugin] GPU Foundation is not initialized!
+2026-09-24 19:52:08 [10,609ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-09-24 19:52:23 [25,680ms] [Error] [omni.kit.imgui_renderer.plugin] _prepareDefaultWindow: invalid device attached 
+to the default window!
+2026-09-24 19:52:25 [28,046ms] [Warning] [omni.replicator.core.scripts.extension] No material configuration file, adding configuration to material settings directly.
+2026-09-24 19:52:42 [45,212ms] [Error] [omni.physx.plugin] CUDA libs are present, but no suitable CUDA GPU was found!

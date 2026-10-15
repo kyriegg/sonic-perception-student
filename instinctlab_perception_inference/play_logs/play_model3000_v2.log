@@ -1,0 +1,1805 @@
+﻿[Warning] [simulation_app.simulation_app] Modules: ['omni.kit_app'] were loaded before SimulationApp was started and might not be loaded correctly.
+[Warning] [simulation_app.simulation_app] Please check to make sure no extra omniverse or pxr modules are imported before the call to SimulationApp(...)
+Loading user config located at: 'd:/anconda/envs/instinct_repro/lib/site-packages/omni/data/Kit/Isaac-Sim/4.5/user.config.json'
+[Info] [carb] Logging to file: d:/anconda/envs/instinct_repro/lib/site-packages/omni/logs/Kit/Isaac-Sim/4.5/kit_20260924_215737.log
+2026-09-24 19:57:37 [0ms] [Warning] [omni.kit.app.plugin] No crash reporter present, dumps uploading isn't available.
+2026-09-24 19:57:37 [32ms] [Warning] [omni.ext.plugin] [ext: isaaclab_contrib] Extensions config 'extension.toml' doesn't exist 'd:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab_contrib' or 'd:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab_contrib/config'
+2026-09-24 19:57:37 [33ms] [Warning] [omni.ext.plugin] [ext: rendering_modes] Extensions config 'extension.toml' doesn't exist 'd:/robot paper/instinct_repro/isaaclab_instinct/apps/rendering_modes' or 'd:/robot paper/instinct_repro/isaaclab_instinct/apps/rendering_modes/config'
+2026-09-24 19:57:38 [723ms] [Warning] [omni.datastore] OmniHub is inaccessible
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 581.80        | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. | Yes: 0 |     | 7957    MB | 10de      | 7b380100.. |
+|     |                                  |        |     |            | 28e0      | cafb4d3d.. |
+|     |                                  |        |     |            | 1         |            |
+|=============================================================================================|
+| OS: Windows 11 Home China, Version: 10.0 (25H2), Build: 26200, Kernel: 10.0.26100.9457
+| Processor: 13th Gen Intel(R) Core(TM) i7-13700H
+| Cores: 14 | Logical Cores: 20
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 16108 | Free Memory: 4987
+| Total Page/Swap (MB): 48113 | Free Page/Swap: 30275
+|---------------------------------------------------------------------------------------------|
+2026-09-24 19:57:41 [3,769ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-09-24 19:57:46 [8,997ms] [Warning] [omni.replicator.core.scripts.extension] No material configuration file, adding configuration to material settings directly.
+2026-09-24 19:57:53 [15,640ms] [Warning] [omni.kvdb.plugin] Disabling key-value database because another kit process is locking it
+2026-09-24 19:57:53 [15,670ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/ambientOcclusion/enabled'
+2026-09-24 19:57:53 [15,670ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/directLighting/sampledLighting/enabled'
+2026-09-24 19:57:53 [15,670ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/indirectDiffuse/enabled'
+2026-09-24 19:57:53 [15,670ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/raytracing/cached/enabled'
+2026-09-24 19:57:53 [15,670ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/reflections/enabled'
+2026-09-24 19:57:53 [15,670ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/sceneDb/ambientLightIntensity'
+python.exe : Warp CUDA error 2: out of memory (in function alloc_device_async, C:\g\125839681\warp\native\warp.cu:527)
+At D:\robot paper\instinct_repro\run_instinct.ps1:15 char:1
++ & "D:\anconda\envs\instinct_repro\python.exe" $Script @ScriptArgs
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warp CUDA error...ve\warp.cu:527):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-09-24 19:57:53 [15,670ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/translucency/enabled'
+2026-09-24 19:57:53 [15,670ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/viewTile/limit'
+2026-09-24 19:57:53 [15,871ms] [Warning] [rtx.scenedb.plugin] SceneDbContext : TLAS limit buffer size 2908577024
+2026-09-24 19:57:53 [15,871ms] [Warning] [rtx.scenedb.plugin] SceneDbContext : TLAS limit : valid true, within: false
+2026-09-24 19:57:57 [19,659ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/directLighting/sampledLighting/samplesPerPixel'
+2026-09-24 19:57:57 [19,659ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/pathtracing/maxSamplesPerLaunch'
+2026-09-24 19:57:57 [19,659ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults-transient/meshlights/forceDisable'
+2026-09-24 19:57:57 [19,914ms] [Warning] [omni.usd-abi.plugin] No setting was found for '/rtx-defaults/post/dlss/execMode'
+2026-09-24 19:59:44 [126,552ms] [Warning] [isaaclab.envs.manager_based_env] Seed not set for the environment. The environment creation may not be deterministic.
+2026-09-24 19:59:45 [127,947ms] [Warning] [omni.ext._impl._internal] Found class `WrappedClass` derived from `omni.ext.IExt` in module: 'omni.kit.window.content_browser', but it was imported from other extension: 'D:\anconda\envs\instinct_repro\Lib\site-packages\omni\kernel\py\omni\kit\app\_impl\__init__.py', which is not a subpath to: 'd:\anconda\envs\instinct_repro\lib\site-packages\isaacsim\extscache\omni.kit.window.content_browser-2.10.3+d02c707b'. Do not import `IExt` derived class from other extension in your public namespace.
+Traceback (most recent call last):
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 66, in <
+lambda>
+    lambda event, obj=weakref.proxy(self): obj._initialize_callback(event),
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 273, in 
+_initialize_callback
+    self._initialize_impl()
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/ray_caster/ray_caster.py", lin
+e 149, in _initialize_impl
+    self._initialize_rays_impl()
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/ray_caster/ray_caster.py", lin
+e 203, in _initialize_rays_impl
+    self.ray_starts, self.ray_directions = self.cfg.pattern_cfg.func(self.cfg.pattern_cfg, self._device)
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/ray_caster/patterns/patterns.p
+y", line 56, in grid_pattern
+    ray_directions[..., :] = torch.tensor(list(cfg.direction), device=device)
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 66, in <
+lambda>
+    lambda event, obj=weakref.proxy(self): obj._initialize_callback(event),
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 273, in 
+_initialize_callback
+    self._initialize_impl()
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/contact_sensor/contact_sensor.
+py", line 252, in _initialize_impl
+    super()._initialize_impl()
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 227, in 
+_initialize_impl
+    self._is_outdated = torch.ones(self._num_envs, dtype=torch.bool, device=self._device)
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 66, in <
+lambda>
+    lambda event, obj=weakref.proxy(self): obj._initialize_callback(event),
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 273, in 
+_initialize_callback
+    self._initialize_impl()
+  File "D:\robot paper\instinct_repro\InstinctLab\source\instinctlab\instinctlab\sensors\volume_points\volume_points.py
+", line 97, in _initialize_impl
+    super()._initialize_impl()
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 227, in 
+_initialize_impl
+    self._is_outdated = torch.ones(self._num_envs, dtype=torch.bool, device=self._device)
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Traceback (most recent call last):
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 66, in <
+lambda>
+    lambda event, obj=weakref.proxy(self): obj._initialize_callback(event),
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 273, in 
+_initialize_callback
+    self._initialize_impl()
+  File "D:\robot paper\instinct_repro\InstinctLab\source\instinctlab\instinctlab\sensors\noisy_camera\noisy_grouped_ray
+caster_camera.py", line 26, in _initialize_impl
+    super()._initialize_impl()  # type: ignore
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/ray_caster/ray_caster.py", lin
+e 121, in _initialize_impl
+    super()._initialize_impl()
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sensors/sensor_base.py", line 227, in 
+_initialize_impl
+    self._is_outdated = torch.ones(self._num_envs, dtype=torch.bool, device=self._device)
+RuntimeError: CUDA error: an illegal memory access was encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2026-09-24 20:01:55 [257,927ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,928ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,928ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,928ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,929ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,930ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,931ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,932ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,933ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,934ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,935ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,936ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,937ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,940ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,941ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,942ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,943ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,944ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,945ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,946ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,947ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,948ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,949ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,950ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,951ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,952ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,953ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,954ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,955ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,963ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,964ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,965ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,966ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 360 for cMassLoca
+lPosePosDev
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 678
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mRbIndicesD
+ev
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 40 for mRbRecords
+Dev
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiDirtyF
+lagsDev
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 120 for mArtiLink
+sDirtyFlagsDev
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mDirtyArtiG
+puIndices
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\CudaCommon.h: 74
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] Unable to allocate memory of size 4 for mArtiIndice
+sDev
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 215
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 188
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,967ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,968ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,968ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,968ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,968ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:55 [257,971ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 197
+2026-09-24 20:01:55 [257,971ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 198
+2026-09-24 20:01:55 [257,971ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 199
+2026-09-24 20:01:55 [257,971ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 200
+2026-09-24 20:01:55 [257,971ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 201
+2026-09-24 20:01:55 [257,972ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 202
+2026-09-24 20:01:55 [257,972ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 203
+2026-09-24 20:01:55 [257,972ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 204
+2026-09-24 20:01:55 [257,972ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 205
+2026-09-24 20:01:55 [257,972ms] [Error] [omni.physx.tensors.plugin] CUDA error: an illegal memory access was encountere
+d: C:\g\134469507\omni\extensions\runtime\source\omni.physx.tensors\plugins\gpu\GpuRigidBodyView.cpp: 206
+2026-09-24 20:01:58 [260,593ms] [Error] [carb.graphics-vulkan.plugin] GPU crash is detected. Trying to write crash dump
+ into: d:/anconda/envs/instinct_repro/lib/site-packages/omni/logs/Kit/Isaac-Sim/4.5/kit_20260924_215737-0.nv-gpudmp
+2026-09-24 20:01:58 [260,591ms] [Warning] [carb.graphics-vulkan.plugin] GPU pagefault occured on virtual address(0x000000000000a000)
+2026-09-24 20:01:58 [260,592ms] [Warning] [carb.graphics-vulkan.plugin] GPU pagefault no associated data found closest allocations were:
+2026-09-24 20:01:58 [260,592ms] [Warning] [carb.graphics-vulkan.plugin] 1: AddressRange(0x0000000000000000 - 0x0000000000000000) with name(dummy to ignore)
+2026-09-24 20:01:58 [260,593ms] [Warning] [carb.graphics-vulkan.plugin] 2: AddressRange(0xffffffffffffffff - 0xffffffffffffffff) with name(dummy to ignore)
+2026-09-24 20:01:58 [260,593ms] [Warning] [carb.graphics-vulkan.plugin] aftermath reports no active shader during GPU crash
+2026-09-24 20:01:58 [260,598ms] [Error] [carb.graphics-vulkan.plugin] GPU crash dump is successfully written
+2026-09-24 20:01:58 [260,599ms] [Error] [carb.graphics-vulkan.plugin] VkResult: ERROR_DEVICE_LOST
+2026-09-24 20:01:58 [260,600ms] [Error] [carb.graphics-vulkan.plugin] vkWaitForFences failed for command queue.
+2026-09-24 20:01:58 [260,601ms] [Error] [gpu.foundation.plugin] A GPU crash occurred. Exiting the application...
+Reasons for the failure: a device lost, out of memory, or an unexpected bug.
+Windows fatal exception: access violation
+
+Thread 0x00004bb8 (most recent call first):
+  File "D:\anconda\envs\instinct_repro\lib\concurrent\futures\thread.py", line 81 in _worker
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 953 in run
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 1016 in _bootstrap_inner
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 973 in _bootstrap
+
+Thread 0x00001b90 (most recent call first):
+  File "D:\anconda\envs\instinct_repro\lib\concurrent\futures\thread.py", line 81 in _worker
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 953 in run
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 1016 in _bootstrap_inner
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 973 in _bootstrap
+
+Thread 0x0000788c (most recent call first):
+  File "D:\anconda\envs\instinct_repro\lib\concurrent\futures\thread.py", line 81 in _worker
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 953 in run
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 1016 in _bootstrap_inner
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 973 in _bootstrap
+
+Thread 0x00005c84 (most recent call first):
+  File "D:\anconda\envs\instinct_repro\lib\concurrent\futures\thread.py", line 81 in _worker
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 953 in run
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 1016 in _bootstrap_inner
+  File "D:\anconda\envs\instinct_repro\lib\threading.py", line 973 in _bootstrap
+
+Thread 0x00005e54 (most recent call first):
+  File "d:/anconda/envs/instinct_repro/lib/site-packages/isaacsim/exts/isaacsim.core.api/isaacsim/core/api/simulation_c
+ontext/simulation_context.py", line 864 in play
+  File "d:/anconda/envs/instinct_repro/lib/site-packages/isaacsim/exts/isaacsim.core.api/isaacsim/core/api/simulation_c
+ontext/simulation_context.py", line 601 in reset
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/sim/simulation_context.py", line 516 i
+n reset
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/envs/manager_based_env.py", line 157 i
+n __init__
+  File "d:/robot paper/instinct_repro/isaaclab_instinct/source/isaaclab/isaaclab/envs/manager_based_rl_env.py", line 79
+ in __init__
+  File "D:\anconda\envs\instinct_repro\lib\site-packages\gymnasium\envs\registration.py", line 735 in make
+  File "D:\robot paper\instinct_repro\InstinctLab\source\instinctlab\instinctlab\tasks\parkour\scripts\play.py", line 1
+29 in main
+  File "D:\robot paper\instinct_repro\InstinctLab\source\instinctlab\instinctlab\tasks\parkour\scripts\play.py", line 2
+75 in <module>

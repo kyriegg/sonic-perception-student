@@ -6,16 +6,16 @@ Unitree G1 上的双老师蒸馏实验：学生以 NVIDIA SONIC 为底座，从 
 
 | 目录 | 内容 |
 |---|---|
-| [`perception_terrain_inference/`](perception_terrain_inference/) | 复现好的 InstinctLab 感知策略 `model_30000.pt` 在 9 种论文地形上的推理：按论文方式的评估（`eval/eval_paper.py`、`eval/results_paper/`）、最高难度下的关节运动数据录制（`eval/record_joints.py`、`joint_data/`）、play 回放视频 |
+| [`instinctlab_perception_inference/`](instinctlab_perception_inference/) | **纯 InstinctLab 感知策略的推理**（复现好的 `model_30000.pt`，不涉及 SONIC）：play 回放视频（`videos/`，3000 与 30000 次迭代对比）和 play 日志（`play_logs/`）；原版地形评估（`eval/eval_full.py`，`eval/results_3k/`、`eval/results_15k/`）；按论文方式的 9 种地形评估（`eval/eval_paper.py`、`eval/results_paper/`）；最高难度下 9 种地形的关节运动数据录制（`eval/record_joints.py`、`joint_data/`）；本地运行包装脚本 `run_instinct.ps1` |
 | [`stage0_sonic_two_teachers/`](stage0_sonic_two_teachers/) | 初步实验（第零阶段）：PyTorch 重写 SONIC 并与官方 ONNX 比对、SONIC 搬进 InstinctLab 仿真器（含腰部关节符号修正）、两个老师在同一环境中的验证与回放视频 |
 
 详细说明见各目录下的 README：
-- `perception_terrain_inference/README_2026-09-24_play与评估.md`
+- `instinctlab_perception_inference/README_2026-09-24_play与评估.md`
 - `stage0_sonic_two_teachers/README_2026-10-10_关节数据与第零阶段.md`
 
 ## 关节数据格式
 
-`perception_terrain_inference/joint_data/model_30000_L9/`：9 种地形 × 10 个机器人 × 1000 步（20 s，50 Hz），第 9 级难度。
+`instinctlab_perception_inference/joint_data/model_30000_L9/`：9 种地形 × 10 个机器人 × 1000 步（20 s，50 Hz），第 9 级难度。
 - `joints_model_30000_<地形>_L9.npz`：形状 `[1000 步, 10 机器人, ...]`
 - `joints_model_30000_L9_meta.json`：关节名、任务、难度、步长等元信息
 - `csv/<地形>_L9_robot0.csv`：每种地形 1 个机器人的 CSV（时间、根位姿、q、dq、力矩）
